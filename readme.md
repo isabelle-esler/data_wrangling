@@ -92,6 +92,7 @@ above.
 Now let’s see what a table looks like.
 
 ``` python
+#| eval: false
 data_table = {
     'A': [1, 2, 3, 4, 5],
     'B': ['a', 'b', 'c', 'd', 'e'],
