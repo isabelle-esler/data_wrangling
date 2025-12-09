@@ -1,0 +1,56 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.774
+Model:                            OLS   Adj. R-squared:                  0.762
+Method:                 Least Squares   F-statistic:                     61.53
+Date:                Fri, 05 Dec 2025   Prob (F-statistic):          6.05e-153
+Time:                        17:07:33   Log-Likelihood:                 29.650
+No. Observations:                 569   AIC:                             2.699
+Df Residuals:                     538   BIC:                             137.4
+Df Model:                          30                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                      -2.0218      0.428     -4.724      0.000      -2.863      -1.181
+radius_mean                -0.2178      0.174     -1.255      0.210      -0.559       0.123
+texture_mean                0.0045      0.008      0.572      0.567      -0.011       0.020
+perimeter_mean              0.0237      0.025      0.946      0.345      -0.026       0.073
+area_mean                   0.0003      0.001      0.605      0.545      -0.001       0.001
+smoothness_mean             0.0847      2.017      0.042      0.967      -3.878       4.047
+compactness_mean           -4.2220      1.334     -3.166      0.002      -6.842      -1.602
+concavity_mean              1.3980      1.046      1.337      0.182      -0.656       3.452
+concave points_mean         2.1418      1.979      1.082      0.280      -1.746       6.030
+symmetry_mean               0.1027      0.743      0.138      0.890      -1.356       1.562
+fractal_dimension_mean      0.0333      5.572      0.006      0.995     -10.913      10.979
+radius_se                   0.4350      0.310      1.401      0.162      -0.175       1.045
+texture_se                 -0.0068      0.037     -0.183      0.855      -0.079       0.066
+perimeter_se               -0.0225      0.041     -0.548      0.584      -0.103       0.058
+area_se                    -0.0009      0.001     -0.660      0.509      -0.004       0.002
+smoothness_se              15.8543      6.625      2.393      0.017       2.841      28.868
+compactness_se              0.0649      2.169      0.030      0.976      -4.197       4.327
+concavity_se               -3.5655      1.301     -2.741      0.006      -6.121      -1.010
+concave points_se          10.5680      5.452      1.938      0.053      -0.142      21.278
+symmetry_se                 1.6973      2.728      0.622      0.534      -3.661       7.055
+fractal_dimension_se       -7.1464     11.676     -0.612      0.541     -30.083      15.791
+radius_worst                0.1952      0.058      3.367      0.001       0.081       0.309
+texture_worst               0.0072      0.007      1.030      0.303      -0.006       0.021
+perimeter_worst            -0.0024      0.006     -0.410      0.682      -0.014       0.009
+area_worst                 -0.0010      0.000     -3.163      0.002      -0.002      -0.000
+smoothness_worst            0.5429      1.435      0.378      0.705      -2.275       3.361
+compactness_worst           0.0672      0.383      0.175      0.861      -0.685       0.820
+concavity_worst             0.3812      0.269      1.419      0.156      -0.146       0.909
+concave points_worst        0.4643      0.914      0.508      0.612      -1.332       2.260
+symmetry_worst              0.5568      0.494      1.126      0.260      -0.414       1.528
+fractal_dimension_worst     4.3035      2.383      1.806      0.072      -0.378       8.985
+==============================================================================
+Omnibus:                       32.654   Durbin-Watson:                   1.794
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               36.690
+Skew:                           0.603   Prob(JB):                     1.08e-08
+Kurtosis:                       3.302   Cond. No.                     1.54e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.54e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
